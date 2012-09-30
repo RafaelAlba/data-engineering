@@ -16,11 +16,12 @@
 2. rake db:test:prepare
 3. rake test
 
-Single test
-ruby -Itest test/unit/order_test.rb
-ruby -Itest test/unit/item_test.rb
-ruby -Itest test/unit/merchant_test.rb
-ruby -Itest test/functional/acquisition_controller_test.rb
+###Single test
+
+1. ruby -Itest test/unit/order_test.rb
+2. ruby -Itest test/unit/item_test.rb
+3. ruby -Itest test/unit/merchant_test.rb
+4. ruby -Itest test/functional/acquisition_controller_test.rb
 
 ## Note
 
