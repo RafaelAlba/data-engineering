@@ -1,0 +1,13 @@
+<% if @errors %>
+  <h3>Errors found</h3>
+  <ul>
+    <% @errors.each do |err| %>
+      <li><%= err %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= form_tag({:action => :create, :controller => :acquisition}, :multipart => true) do %>
+  <%= file_field_tag 'company' %>
+  <%= submit_tag 'Upload' %>
+<% end %>

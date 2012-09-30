@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  purchaser_name: MyString
+  purchase_count: 1
+  item: 
+  merchant: 
+
+two:
+  purchaser_name: MyString
+  purchase_count: 1
+  item: 
+  merchant: 
